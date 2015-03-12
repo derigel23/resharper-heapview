@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03FAC09B-5DDE-4631-B165-82761D37A6FE}</ProjectGuid>
+    <ProjectGuid>{33530656-F44F-477A-BCF5-79F05D0AFC42}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>JetBrains.ReSharper.HeapView</RootNamespace>
@@ -36,14 +36,14 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <BaseIntermediateOutputPath>obj.R90\</BaseIntermediateOutputPath>
+    <BaseIntermediateOutputPath>obj.R91\</BaseIntermediateOutputPath>
     <NuGetPackageImportStamp>dca20d2b</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin.R90\Debug\</OutputPath>
+    <OutputPath>bin.R91\Debug\</OutputPath>
     <DefineConstants>TRACE;DEBUG;JET_MODE_ASSERT;RESHARPER9</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -51,7 +51,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin.R90\Release\</OutputPath>
+    <OutputPath>bin.R91\Release\</OutputPath>
     <DefineConstants>TRACE;RESHARPER9</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -157,7 +157,7 @@
     <Compile Include="HeapViewTestsAssembly.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="Data\Daemon\SlowDelegates01.cs.gold" />
-    <None Include="packages.ReSharper.HeapView.Tests.R90.config" />
+    <None Include="packages.ReSharper.HeapView.Tests.R91.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
@@ -182,9 +182,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ReSharper.HeapView.R90.csproj">
+    <ProjectReference Include="..\ReSharper.HeapView.R91.csproj">
       <Project>{4dd44801-150f-4922-8835-cea0fb1dc2de}</Project>
-      <Name>ReSharper.HeapView.R90</Name>
+      <Name>ReSharper.HeapView.R91</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

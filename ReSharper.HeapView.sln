@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{A6BD
 		ReSharper.HeapView.nuspec = ReSharper.HeapView.nuspec
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.HeapView.R91", "ReSharper.HeapView\ReSharper.HeapView.R91.csproj", "{B1888173-E128-45E9-B655-44470726960F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.HeapView.Tests.R91", "ReSharper.HeapView\Tests\ReSharper.HeapView.Tests.R91.csproj", "{33530656-F44F-477A-BCF5-79F05D0AFC42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,14 @@ Global
 		{03FAC09B-5DDE-4631-B165-82761D37A6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03FAC09B-5DDE-4631-B165-82761D37A6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03FAC09B-5DDE-4631-B165-82761D37A6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1888173-E128-45E9-B655-44470726960F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1888173-E128-45E9-B655-44470726960F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1888173-E128-45E9-B655-44470726960F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1888173-E128-45E9-B655-44470726960F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33530656-F44F-477A-BCF5-79F05D0AFC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33530656-F44F-477A-BCF5-79F05D0AFC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33530656-F44F-477A-BCF5-79F05D0AFC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33530656-F44F-477A-BCF5-79F05D0AFC42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +76,6 @@ Global
 		{6DC588F6-B12C-447E-92D7-9C21A003179C} = {B1DB157D-4A9E-449C-98FD-3449DB17F12E}
 		{1278D396-5565-4262-B758-B5599CB4A82A} = {B1DB157D-4A9E-449C-98FD-3449DB17F12E}
 		{03FAC09B-5DDE-4631-B165-82761D37A6FE} = {B1DB157D-4A9E-449C-98FD-3449DB17F12E}
+		{33530656-F44F-477A-BCF5-79F05D0AFC42} = {B1DB157D-4A9E-449C-98FD-3449DB17F12E}
 	EndGlobalSection
 EndGlobal
