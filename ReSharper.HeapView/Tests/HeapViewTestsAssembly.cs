@@ -19,7 +19,7 @@ using JetBrains.TestFramework;
 #if RESHARPER8
 public class HeapViewTestsAssembly : ReSharperTestEnvironmentAssembly
 #elif RESHARPER9
-public class HeapViewTestsAssembly : TestEnvironmentAssembly<JetBrains.ReSharper.HeapView.IHeapViewTestEnvironmentZone>
+public partial class HeapViewTestsAssembly : TestEnvironmentAssembly<JetBrains.ReSharper.HeapView.IHeapViewTestEnvironmentZone>
 #endif
 {
   [NotNull]
@@ -29,6 +29,7 @@ public class HeapViewTestsAssembly : TestEnvironmentAssembly<JetBrains.ReSharper
     yield return Assembly.GetExecutingAssembly();
   }
 
+#if RESHARPER8
   public override void SetUp()
   {
     base.SetUp();
@@ -47,4 +48,5 @@ public class HeapViewTestsAssembly : TestEnvironmentAssembly<JetBrains.ReSharper
 
     base.TearDown();
   }
+#endif
 }
